@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phish Shield + QR Generator</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <h1>Phish Shield + QR Code Generator</h1>
+
+  <input type="text" id="urlInput" placeholder="Enter a URL here">
+  <div>
+    <button onclick="checkURL()">Check URL</button>
+    <button onclick="generateQR()">Generate QR</button>
+  </div>
+
+  <div class="result" id="phishResult"></div>
+  <div id="qr-code"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="./script.js"></script>
+    <footer>
+    &copy; 2025 Tanish Chavan. All rights reserved.
+  </footer>
+</body>
+</html>
