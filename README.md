@@ -30,9 +30,5 @@ This repository contains two small web projects built using **HTML, CSS, and Jav
 - **Frontend:** HTML, CSS, JavaScript  
 - **Libraries/Tools:** QRCode.js for QR code generation  
 
----
-
-## Installation / Usage
-1. Clone the repository:  
 ```bash
 git clone https://github.com/tanishchavaan/your-repo-name.git
